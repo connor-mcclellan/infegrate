@@ -11,7 +11,6 @@ class Solution(object):
         self.t = t
         self.x = x
 
-
 def rk(f, bounds, ivs, t_eval=None, dt=1., dx_max=1e-3, dx_min=1e-6, args=None, verbose=False):
 
     ivs = np.array([m.mpf(iv) for iv in ivs])
